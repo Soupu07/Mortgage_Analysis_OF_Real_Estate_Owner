@@ -13,27 +13,27 @@ The dashboard must demonstrate relationships and trends for the key metrics as f
 
 **Variables**                                                   **Description**
 
-**Second mortgage -**                                       Households with a second mortgage statistics
+**i) Second mortgage -**                                       Households with a second mortgage statistics
 
-**Home equity   -**                                       Households with a home equity loan statistics
+**ii) Home equity   -**                                       Households with a home equity loan statistics
 
-**Debt  -**                                               Households with any type of debt statistics
+**iii) Debt  -**                                               Households with any type of debt statistics
 
-**Mortgage Costs  -**                                     Statistics regarding mortgage payments, home equity loans, utilities, and property taxes
+**iv) Mortgage Costs  -**                                     Statistics regarding mortgage payments, home equity loans, utilities, and property taxes
 
-**Home Owner Costs -**                                    Sum of utilities, and property taxes statistics
+**v) Home Owner Costs -**                                    Sum of utilities, and property taxes statistics
 
-**Gross Rent  -**                                         Contract rent plus the estimated average monthly cost of utility features
+**vi) Gross Rent  -**                                         Contract rent plus the estimated average monthly cost of utility features
 
-**High school Graduation -**                               High school graduation statistics
+**vii) High school Graduation -**                               High school graduation statistics
 
-**Population Demographics -**                             Population demographics statistics
+**viii) Population Demographics -**                             Population demographics statistics
 
-**Age Demographics -**                                    Age demographic statistics
+**ix) Age Demographics -**                                    Age demographic statistics
 
-**Household Income -**                                   Total income of people residing in the household
+**x) Household Income -**                                   Total income of people residing in the household
 
-**Family Income -**                                      Total income of people related to the householder
+**xi) Family Income -**                                      Total income of people related to the householder
 
 
 
