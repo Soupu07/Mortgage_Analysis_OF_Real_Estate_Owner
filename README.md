@@ -49,19 +49,45 @@ The dashboard must demonstrate relationships and trends for the key metrics as f
 
 **Exploratory Data Analysis (EDA):**
 
-**a. Perform debt analysis. You may take the following steps:**
 
-i) Explore the top 2,500 locations where the percentage of households with a second mortgage is the highest and percent ownership is above 10 percent. Visualize using geo-map. You may keep the upper limit for the percent of households with a second mortgage to 50 percent
+**Perform debt analysis. You may take the following steps:**
 
-ii) Use the following bad debt equation:
+a) Explore the top 2,500 locations where the percentage of households with a second mortgage is the highest and percent ownership is above 10 percent. Visualize using geo-map. You may keep the upper limit for the percent of households with a second mortgage to 50 percent
 
-iii) Bad Debt = P (Second Mortgage ∩ Home Equity Loan)
+b) Use the following bad debt equation:
 
-iv) Bad Debt = second_mortgage + home_equity - home_equity_second_mortgage
+c) Bad Debt = P (Second Mortgage ∩ Home Equity Loan)
 
-v) Create pie charts  to show overall debt and bad debt
+d) Bad Debt = second_mortgage + home_equity - home_equity_second_mortgage
 
-vi) Create a collated income distribution chart for family income, house hold income, and remaining income
+e) Create pie charts  to show overall debt and bad debt
 
-**b) Perform EDA and come out with insights into population density and age. You may have to derive new fields (make sure to weight averages for accurate measurements):**
+f) Create a collated income distribution chart for family income, house hold income, and remaining income
+
+
+**Perform EDA and come out with insights into population density and age. You may have to derive new fields (make sure to weight averages for accurate measurements):**
+
+a) Use pop and ALand variables to create a new field called population density
+
+b) Use male_age_median, female_age_median, male_pop, and female_pop to create a new field called median age
+
+c) Visualize the findings using appropriate chart type
+
+
+**Create bins for population into a new variable by selecting appropriate class interval so that the number of categories don’t exceed 5 for the ease of analysis:**
+
+a) Analyze the married, separated, and divorced population for these population brackets
+
+b) Visualize using appropriate chart type
+
+
+**Please detail your observations for rent as a percentage of income at an overall level, and for different states.**
+
+**Perform correlation analysis for all the relevant variables by creating a heatmap. Describe your findings.**
+
+
+
+**Project Task: Week 2**
+
+**Data Pre-processing:**
 
