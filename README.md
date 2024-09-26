@@ -91,3 +91,59 @@ b) Visualize using appropriate chart type
 
 **Data Pre-processing:**
 
+1. The economic multivariate data has a significant number of measured variables. The goal is to find where the measured variables depend on a number of smaller unobserved common factors or latent variables.
+
+2. Each variable is assumed to be dependent upon a linear combination of the common factors, and the coefficients are known as loadings. Each measured variable also includes a component due to independent random variability, known as “specific variance” because it is specific to one variable. Obtain the common factors and then plot the loadings. Use factor analysis to find latent variables in our dataset and gain insight into the linear relationships in the data.
+
+**Following are the list of latent variables:**
+
+a) Highschool graduation rates
+
+b) Median population age
+
+c) Second mortgage statistics
+
+d)Percent own
+
+e)Bad debt expense
+
+
+**Data Modeling :**
+
+a) Build a linear Regression model to predict the total monthly expenditure for home mortgages loan.
+
+ Please refer **deplotment_RE.xlsx**. Column **hc_mortgage_mean** is predicted variable. This is the mean monthly mortgage and owner costs of specified geographical location.
+
+ **Note:** Exclude loans from prediction model which have NaN (Not a Number) values for **hc_mortgage_mean**
+
+  a) Run a model at a Nation level. If the accuracy levels and R square are not satisfactory proceed to below step.
+  
+  b) Run another model at State level. There are 52 states in USA.
+  
+  c) Keep below considerations while building a linear regression model:
+
+i) Variables should have significant impact on predicting Monthly mortgage and owner costs
+
+ii) Utilize all predictor variable to start with initial hypothesis
+
+iii) R square of 60 percent and above should be achieved
+
+iv) Ensure Multi-collinearity does not exist in dependent variables
+
+v) Test if predicted variable is normally distributed
+
+
+**Data Reporting:**
+
+a) Create a dashboard in tableau by choosing appropriate chart types and metrics useful for the business. The dashboard must entail the following:
+
+i) Box plot of distribution of average rent by type of place (village, urban, town, etc.).
+
+ii) Pie charts to show overall debt and bad debt.
+
+iii) Explore the top 2,500 locations where the percentage of households with a second mortgage is the highest and percent ownership is above 10 percent. Visualize using geo-map.
+
+iv) Pie chart to show the population distribution across different types of places (village, urban, town etc.).
+
+
+
